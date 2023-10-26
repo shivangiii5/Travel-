@@ -1,0 +1,33 @@
+/* CSS for the container div */
+.container {
+    display: flex;
+    justify-content: space-between; /* Align sections with space between them */
+    width: 80%;
+    height: 40px;
+    background-color: #f0f0f0; /* Background color for the container */
+    padding: 10px; /* Add some padding for spacing */
+  }
+  
+  /* CSS for each section */
+  .section {
+    flex: 1; /* Equal width for each section */
+    display: flex;
+    align-items: center; /* Center items vertically within each section */
+    justify-content: center; /* Center items horizontally within each section */
+    border: 1px solid #ccc; /* Border for each section */
+    margin-right: 10px; /* Add some spacing between sections */
+  }
+  
+  /* Add specific styles for each section if needed */
+  .destination {
+    background-color: #ffcc00; /* Background color for Destination section */
+  }
+  
+  .calendar {
+    background-color: #ff9900; /* Background color for Calendar section */
+  }
+  
+  .choose-package {
+    background-color: #ff6600; /* Background color for Choose Tour Package section */
+  }
+  
